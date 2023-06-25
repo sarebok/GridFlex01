@@ -10,6 +10,15 @@
     gap: 1rem;
 }
 
+h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
 .nav-bar {
     grid-area: navBar;
     text-align: center;
@@ -33,8 +42,14 @@ footer {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.movie-card {
+    text-align: center;
+    border: 1px solid wheat;
+}
+
 .category-label {
     display: flex;
+    justify-content: center;
 }
 
 .label {
@@ -46,6 +61,7 @@ footer {
 
 .movie-details {
     display: flex;
+    justify-content: center;
 }
 
 .movie-eval {
