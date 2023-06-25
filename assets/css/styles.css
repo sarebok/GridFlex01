@@ -5,33 +5,52 @@
         "navBar navBar"
         "aside main"
         "footer footer";
+    grid-template-rows: 1fr 20fr 1fr;
     height: 100vh;
+    gap: 1rem;
 }
 
 .nav-bar {
-    background: black;
     grid-area: navBar;
-    color: wheat;
     text-align: center;
 }
 
 aside {
-    background: green;
     grid-area: aside;
 }
 
 main {
-    background-color: red;
     grid-area: main;
 }
 
 footer {
-    background-color: blue;
     grid-area: footer;
-    height: 100px;
+    text-align: center;
 }
 
 .catalog-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.category-label {
+    display: flex;
+}
+
+.label {
+    margin: 1rem;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+
+.movie-details {
+    display: flex;
+}
+
+.movie-eval {
+    /* margin-right: 1rem; */
+}
+.buy-button {
+    margin-left: 1rem;
 }
