@@ -40,6 +40,17 @@ aside {
     margin-left: 1rem;
 }
 
+.movie-quantity {
+    display: flex;
+    justify-content: left;
+}
+
+.movie-quantity p {
+    font-weight: 500;
+    padding: 0;
+    margin: 0.5rem;
+}
+
 main {
     grid-area: main;
     margin: 0 1rem;
@@ -71,6 +82,7 @@ footer {
 .movie-card {
     text-align: center;
     border: 1px solid wheat;
+    padding: 1rem;
 }
 
 .movie-card img {
